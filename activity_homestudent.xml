@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homestudent"
+    android:background="@drawable/l">
+
+    <ImageButton
+        android:id="@+id/food"
+        style="?attr/imageButtonStyle"
+        android:layout_width="160dp"
+        android:layout_height="168dp"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="118dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginEnd="115dp"
+        android:layout_marginRight="115dp"
+        android:layout_marginBottom="492dp"
+        android:background="@drawable/rounded_corners_imagebutton"
+        app:srcCompat="@drawable/food" />
+
+    <ImageButton
+        android:id="@+id/hotel"
+        style="?attr/imageButtonStyle"
+        android:layout_width="160dp"
+        android:layout_height="168dp"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="119dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginEnd="114dp"
+        android:layout_marginRight="114dp"
+        android:layout_marginBottom="302dp"
+        android:background="@drawable/rounded_corners_imagebutton"
+        app:srcCompat="@drawable/hotel" />
+
+    <ImageButton
+        android:id="@+id/stationary"
+        style="?attr/imageButtonStyle"
+        android:layout_width="169dp"
+        android:layout_height="174dp"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="118dp"
+        android:layout_marginEnd="106dp"
+        android:layout_marginRight="106dp"
+        android:layout_marginBottom="108dp"
+        android:background="@drawable/rounded_corners_imagebutton"
+        app:srcCompat="@drawable/stationary" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="42dp"
+        android:fontFamily="@font/chewy"
+        android:text="WELCOME TO COLLEGE CAFE"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/editemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="769dp"
+        android:layout_marginBottom="-3dp"
+        android:text="TextView"
+        android:textSize="8sp" />
+
+    <Button
+        android:id="@+id/order"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="29dp"
+        android:background="@drawable/rounded_corners_imagebutton"
+        android:fontFamily="@font/chewy"
+        android:text="VIEW MY ORDERS"
+        android:textColor="@android:color/background_dark" />
+
+</RelativeLayout>
